@@ -1,0 +1,75 @@
+site_name: Andromeda RP
+site_url: https://andromeda-rp.ru
+site_author: Andromeda Team
+site_description: >-
+    Write your documentation in Markdown and create a professional static site in
+    minutes – searchable, customizable, for all devices
+nav:
+    - Главная: index.md
+    - Введение: introduction.md
+    - Терминология: terminology.md
+    - Общие положения: general.md
+    - Правила игры на сервере: server_rules.md
+    - Правила РП-смерти: rp_death.md
+    - Правила баров и баз группировок: bars_and_bases.md
+    - Правила использования КПК: pda_rules.md
+    - Правила територий: territories.md
+    - Правила штурма: siege_rules.md
+    - Война группировок: gang_wars.md
+    - Правила маскировки: disguise_rules.md
+    - Группировки:
+        - gang_rules/index.md
+        - ОКСОП: gang_rules/oksop.md
+        - Учёные: gang_rules/scientists.md
+        - Нейтралы: gang_rules/neutrals.md
+        - Долг: gang_rules/duty.md
+        - Свобода: gang_rules/freedom.md
+        - Бандиты: gang_rules/bandits.md
+        - Монолит: gang_rules/monolith.md
+        - Наёмники: gang_rules/mercenaries.md
+theme: 
+    name: material
+    language: ru
+    logo: assets/logo_light.png
+    favicon: assets/logo_light.png
+    palette:
+      - scheme: default
+        primary: light blue
+        accent: light blue
+        toggle:
+            icon: material/brightness-7
+            name: Switch to dark mode
+      - scheme: slate
+        primary: light blue
+        accent: light blue
+        toggle:
+            icon: material/brightness-4
+            name: Switch to light mode
+    features:
+        - navigation.instant
+        - navigation.tracking
+        - navigation.top
+        - navigation.footer
+        - navigation.expand
+    font:
+        text: Roboto
+        code: Roboto Mono
+    icon:
+        logo: logo
+plugins:
+    - search
+extra_javascript:
+    - https://code.jquery.com/jquery-3.6.4.min.js
+    - js/extra.js
+extra_css:
+    - css/extra.css
+hooks:
+    - hooks/auto_ids.py
+markdown_extensions:
+  - toc:
+      permalink: true
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - def_list
