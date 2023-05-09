@@ -11,23 +11,23 @@ nav:
     - Терминология: terminology.md
     - Общие положения: general.md
     - Правила игры на сервере: server_rules.md
-    - Правила РП-смерти: rp_death.md
-    - Правила баров и баз группировок: bars_and_bases.md
     - Правила использования КПК: pda_rules.md
-    - Правила територий: territories.md
-    - Правила штурма: siege_rules.md
-    - Война группировок: gang_wars.md
     - Правила маскировки: disguise_rules.md
+    - Правила РП-смерти: rp_death.md
+    - Правила територий: territories.md
+    - Правила баров и баз группировок: bars_and_bases.md
+    - Война группировок: gang_wars.md
+    - Правила штурма: siege_rules.md
     - Группировки:
         - gang_rules/index.md
+        - Нейтралы: gang_rules/neutrals.md
+        - Бандиты: gang_rules/bandits.md
         - ОКСОП: gang_rules/oksop.md
         - Учёные: gang_rules/scientists.md
-        - Нейтралы: gang_rules/neutrals.md
         - Долг: gang_rules/duty.md
         - Свобода: gang_rules/freedom.md
-        - Бандиты: gang_rules/bandits.md
-        - Монолит: gang_rules/monolith.md
         - Наёмники: gang_rules/mercenaries.md
+        - Монолит: gang_rules/monolith.md
 theme: 
     name: material
     language: ru
